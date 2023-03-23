@@ -2,14 +2,7 @@ import firebase from 'firebase'
 import { ref, onUnmounted } from 'vue'
 
 const config = {
-  apiKey: 'AIzaSyBV1lEpjXppRbXv8VWpamY17tNYeDYUuc0',
-  authDomain: 'books-3e5e7.firebaseapp.com',
-  databaseURL: 'https://books-3e5e7-default-rtdb.firebaseio.com',
-  projectId: 'books-3e5e7',
-  storageBucket: 'books-3e5e7.appspot.com',
-  messagingSenderId: '1094309274173',
-  appId: '1:1094309274173:web:3f8aa22f2b8577b4dd8054',
-  measurementId: 'G-WN0WRKTFS7'
+//config ayarlarınızı giriniz
 }
 
 const firebaseApp = firebase.initializeApp(config)
